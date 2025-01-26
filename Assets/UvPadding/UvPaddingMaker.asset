@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e82dd37160556842b726b0ad54dd876, type: 3}
+  m_Name: UvPaddingMaker
+  m_EditorClassIdentifier: 
+  SeedGenerationShader: {fileID: 4800000, guid: 094ee6414b7f5ec4db03fc21d2f52231,
+    type: 3}
+  SeedPrepShader: {fileID: 4800000, guid: 6f741c4ac0b3f774baeae2f0900f023e, type: 3}
+  jfaShader: {fileID: 4800000, guid: 07c71c355d2323d49a5c7aaf0e76203e, type: 3}
+  ColorLookupShader: {fileID: 4800000, guid: d6efe45e3a7be594ca0cc68ef03bc376, type: 3}
+  inputTex: {fileID: 0}
+  interIslandColor: {r: 0, g: 0, b: 0, a: 0}
+  interIslandThreshold: 0.05
+  assetPath: 
+  saveToPng: 1
